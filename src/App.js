@@ -13,7 +13,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
   
-        // Set up the Router
         <Route exact path="/" component={About} />
         <Route path="/work-experience" component={WorkExperience} />
         <Route path="/education" component={Education} />
@@ -21,15 +20,12 @@ function App() {
         <Route path="/about" component={About} />
   
         <div className="navigation">
-          <img src={logo} className="logo-image" alt="Logo Image" />
           <div className="navigation-sub">
                                           
-            // Set up the Links
             <Link to="/" className="item">About</Link>
             <Link to="/education" className="item">Education</Link>
             <Link to="/skills" className="item">Skills</Link>
             <Link to="/work-experience" className="item">WorkExperience</Link>
-            <Link to="/about" className="item">About</Link>
   
           </div>
         </div>
