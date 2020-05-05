@@ -1,6 +1,6 @@
 import React from "react"
  
-function PlacesTravel(props) {
+function PlacesTraveled(props) {
   return (
     <div>
       <h1>Places I have Traveled</h1>
@@ -8,4 +8,4 @@ function PlacesTravel(props) {
   )
 }
  
-export default PlacesTravel;
+export default PlacesTraveled;

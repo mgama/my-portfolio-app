@@ -5,7 +5,9 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import WorkExperience from './components/WorkExperience.js';
 import Skills from './components/Skills.js'; 
 import Education from './components/Education.js'; 
-import About from './components/About.js'; 
+import About from './components/About.js';
+import PlacesTraveled from './components/PlacesTraveled.js'; 
+import MusicCreated from './components/MusicCreated.js'; 
 import './App.css';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/education" component={Education} />
         <Route path="/skills" component={Skills} />
         <Route path="/about" component={About} />
+        <Route path="/places-traveled" component={PlacesTraveled} />
+        <Route path="/music-created" component={MusicCreated} />
   
         <div className="navigation">
           <div className="navigation-sub">
@@ -26,6 +30,8 @@ function App() {
             <Link to="/education" className="item">Education</Link>
             <Link to="/skills" className="item">Skills</Link>
             <Link to="/work-experience" className="item">WorkExperience</Link>
+            <Link to="/places-traveled" className="item">PlacesTraveled</Link>
+            <Link to="/music-created" className="item">MusicCreated</Link>
   
           </div>
         </div>
