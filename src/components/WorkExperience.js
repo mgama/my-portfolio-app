@@ -6,6 +6,9 @@ function WorkExperience(props) {
   return (
     <div>
       <h1>Work Experience</h1>
+      <a href="https://www.linkedin.com/in/manuelalejandrogama/">
+        <img src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"/>
+      </a>
       <Thumbnail
         image="https://searchvectorlogo.com/wp-content/uploads/2019/11/wayfair-logo-vector.png"
         title="Wayfair"
