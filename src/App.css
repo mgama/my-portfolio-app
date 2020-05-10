@@ -63,7 +63,25 @@
   }
 }
 
+.workplace.colum.left {
+  width: 10%;
+}
+
+.workplace.colum.right {
+  width: 90%;
+}
+
 .education-section-logo {
+  width:100px;
+  height:100px;
+}
+
+.workplace-logo {
+  width:100px;
+  height:100px;
+}
+
+.social-media-logo {
   width:100px;
   height:100px;
 }

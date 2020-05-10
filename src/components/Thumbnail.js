@@ -4,7 +4,7 @@ function Thumbnail(props) {
   return (
     <div className="project">
       <div className="project-image">
-        <img src={props.image} alt="Project Image"/>
+        <img className="workplace-logo" src={props.image} alt="Project Image"/>
       </div>
       <h2 className="project-title">{props.title}</h2>
       <h3 className="project-subtitle">{props.subtitle}</h3>
